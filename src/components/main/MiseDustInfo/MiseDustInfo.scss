@@ -1,0 +1,35 @@
+@import "utils";
+
+.mise-dust-info {
+	display: flex;
+	justify-content: center;
+	padding-top: 200px;
+
+	.mise-dust{
+		width: 600px;
+		padding: 2rem;
+		border-radius: 30px;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: $oc-cyan-6;
+		color: white;
+		font-weight: 500;
+		
+		@include material-shadow(4, 0.5);
+		img {width: 100px;}
+		.date {
+			padding-top: 20px;
+		}
+		.mise-data {
+			display: flex;
+			flex-direction: row;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			.mise-item + .mise-item {
+				padding-left: 5rem;
+			}
+		}
+	}
+}
