@@ -23,10 +23,10 @@
 		height: 30px;
 		
 		@include material-shadow(5, 0.1);
-		border-radius: 5px;
-		border-top: 0px;
-		border-left: 0px;
-		border-right: 0px;
+			border-radius: 5px;
+			border-top: 0px;
+			border-left: 0px;
+			border-right: 0px;
 	}
 }
 
